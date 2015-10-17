@@ -1,0 +1,142 @@
+/*This section define overall page style*/
+body {
+    background-color: white;
+    width: 100%;
+}
+/*This section define div block width and height*/
+.container {
+    width: 1200px;
+    height: 710px;
+    margin: 0 auto;
+    background-color: #EEEEEE;
+    padding: 25px;
+}
+.menu {
+    width: 1200px;
+    height: 100px;
+    background-color: #EEEEEE;
+}
+#item_specific_fieldset {
+    float: left;
+    color: black;
+    width: 550px;
+    height: 310px;
+    margin-bottom: 20px;
+}
+.item_specific {
+    /*float:left;*/
+    width: 550px;
+    height: 330px;
+    /*background-color: #EEEEEE;*/
+}
+.bill_print {
+    float: right;
+    width: 550px;
+    height: 550px;
+    background-color: #FFFFFF;
+    color: black;
+    overflow: auto;
+}
+#item_group_fieldset {
+    float: left;
+    color: black;
+    width: 550px;
+    height: 240px;
+}
+.item_group {
+    /*float: left;*/
+    width: 550px;
+    height: 250px;
+    /*background-color: #EEEEEE;*/
+    /*padding: 5px;*/
+}
+.quantity {
+    clear: right;
+    float: right;
+    width: 600px;
+    height: 90px;
+    background-color: #cccccc;
+}
+
+/*Style of bill table*/
+table.bill_info {
+    padding: 5px;
+}
+table.bill_info td {
+    width: 80px;
+}
+.first_line_border {
+    padding-bottom: 8px;
+    padding-top: 8px;
+    border-bottom: 1px dashed black;
+}
+.second_line_border {
+   padding-top: 8px;
+   padding-bottom: 8px;
+   border-top: 1px dashed black; 
+}
+/*This section define button width and height*/
+.menu button {
+    width: 130px;
+    height: 75px;
+    background-color: #cccccc;
+}
+.item_specific button {
+    float: left;
+    width: 133px;
+    height: 95px;
+    background-color: #cccccc;
+}
+.item_group button {
+    float: left;
+    width: 133px;
+    height: 100px;
+    background-color: #cccccc;
+}
+
+/*This section define style of '.bill_print'*/
+.bill_print input {
+    border: none;
+    /*background-color: white;*/
+    /*color: black;*/
+}
+.bill_print select, .bill_print option {
+    background-color: black;
+    color: white;
+    height: 30px;
+}
+
+/*Style of '#payment_hold'*/
+#order_type_enter, #payment_method_enter {
+    width: 250px; 
+    height: 30px;
+    /*margin-bottom: 15px;*/
+}
+#order_type_enter option, #payment_method_enter option {
+    width: 250px; 
+    height: 30px;
+}
+#payment_hold button {
+    width: 90px;
+    height: 50px;
+}
+#payment_hold_button_container {
+    display: block;
+    padding-top: 20px;
+    margin-left: 100px;
+}
+/*Style of '#discount_last_hold'*/
+#discount_last_hold button {
+    width: 90px;
+    height: 50px;
+}
+#discount_last_hold_button_container {
+    display: block;
+    padding-top: 20px;
+    margin-left: 100px;
+}
+/*Scrolling Message Style*/
+#scrolling_message {
+    color: black;
+}
+

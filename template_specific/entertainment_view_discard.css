@@ -1,0 +1,94 @@
+/*This section define overall page style*/
+body {
+    background-color: white;
+    width: 100%;
+}
+/*This section define div block width and height*/
+.container {
+    width: 1200px;
+    height: 710px;
+    margin: 0 auto;
+    background-color: #EEEEEE;
+    padding: 25px;
+}
+.menu {
+    width: 1200px;
+    height: 100px;
+    background-color: #EEEEEE;
+}
+#item_specific_fieldset {
+    float: left;
+    color: black;
+    width: 550px;
+    height: 310px;
+    margin-bottom: 20px;
+}
+.item_specific {
+    /*float:left;*/
+    width: 550px;
+    height: 330px;
+    /*background-color: #EEEEEE;*/
+}
+.bill_print {
+    float: right;
+    width: 550px;
+    height: 550px;
+    background-color: #FFFFFF;
+    color: black;
+    overflow: auto;
+}
+#item_group_fieldset {
+    float: left;
+    color: black;
+    width: 550px;
+    height: 240px;
+}
+.item_group {
+    /*float: left;*/
+    width: 550px;
+    height: 250px;
+    /*background-color: #EEEEEE;*/
+    /*padding: 5px;*/
+}
+.quantity {
+    clear: right;
+    float: right;
+    width: 600px;
+    height: 90px;
+    background-color: #cccccc;
+}
+
+/*Style of bill table*/
+table.bill_info {
+    padding: 5px;
+}
+table.bill_info td {
+    width: 80px;
+}
+
+/*This section define button width and height*/
+.menu button {
+    width: 130px;
+    height: 75px;
+    background-color: #cccccc;
+}
+.item_specific button {
+    width: 133px;
+    height: 95px;
+    background-color: #cccccc;
+}
+.item_group button {
+    width: 133px;
+    height: 100px;
+    background-color: #cccccc;
+}
+
+/*This section define style of '.bill_print'*/
+.bill_print input {
+    border: none;
+    /*background-color: white;*/
+    /*color: black;*/
+}
+
+/*Overwrite style of library*/
+

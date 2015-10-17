@@ -1,0 +1,8 @@
+Virtal Keyboard Link
+1. http://malsup.com/jquery/form/
+2. http://www.jqueryscript.net/demo/jQuery-Virtual-Keyboard-Plugin-Keyboard/
+3. http://www.jqueryscript.net/tags.php?/Keyboard/
+
+Jquery Date Time picker
+1. http://trentrichardson.com/examples/timepicker/
+
